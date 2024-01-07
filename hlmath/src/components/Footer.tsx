@@ -6,11 +6,7 @@ const Footer = () => {
       <Container className="p-4">
         <Row>
           <Col lg={6} md={12} className="mb-4 mb-md-0">
-            <h5 className="text-uppercase">Footer Content</h5>
-
-            <p>
-              Here you can use rows and columns to organize your footer content.
-            </p>
+            <h5 className="text-uppercase">Footer</h5>
           </Col>
         </Row>
       </Container>
