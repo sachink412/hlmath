@@ -6,22 +6,20 @@ const NavigationBar = () => {
     <Navbar bg="black" variant="dark" fixed="top" className="navbar px-3">
       <Container>
         <Navbar.Brand as={Link} to="/" className="custom-font">
-          {" "}
-          {/* Use a custom font */}
           Higher Level Mathematics
         </Navbar.Brand>
         <div>
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/calculus/i" className="hover-effect">
+            <Nav.Link as={Link} to="/calculus/i">
               Calculus I
             </Nav.Link>
-            <Nav.Link as={Link} to="/calculus/ii" className="hover-effect">
+            <Nav.Link as={Link} to="/calculus/ii">
               Calculus II
             </Nav.Link>
-            <Nav.Link as={Link} to="/calculus/iii" className="hover-effect">
+            <Nav.Link as={Link} to="/calculus/iii">
               Calculus III
             </Nav.Link>
-            <Nav.Link as={Link} to="/linear-algebra" className="hover-effect">
+            <Nav.Link as={Link} to="/linear-algebra">
               Linear Algebra
             </Nav.Link>
           </Nav>
